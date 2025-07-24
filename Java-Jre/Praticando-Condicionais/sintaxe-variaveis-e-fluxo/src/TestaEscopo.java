@@ -1,7 +1,7 @@
 public class TestaEscopo {
 
 	public static void main(String[] args) {
-		System.out.println("testando condicionais");
+		System.out.println("Testando Condicionais");
 
 		int idade = 20;
 		int quantidadePessoas = 3;
@@ -15,9 +15,9 @@ public class TestaEscopo {
 
 		if (idade >= 18 || acompanhado) {
 
-			System.out.println("Seja bem vindo");
+			System.out.println("Seja bem-vindo");
 		} else {
-			System.out.println("infelizmente voce nao pode entrar");
+			System.out.println("Infelizmente você não pode entrar");
 		}
 
 	}
