@@ -2,10 +2,10 @@ public class TestaVariaveis {
 
 	public static void main(String[] args) {
 	
-		System.out.println("ola novo teste");
+		System.out.println("Olá novo teste");
 
-		int idade = 37;
+		int idade = 20;
 
-		System.out.println("a idade é " + idade + ", parabéns!");
+		System.out.println("A idade é " + idade + ", parabéns!");
 	}
 }
