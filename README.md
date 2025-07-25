@@ -1,2 +1,2 @@
 # Java-Alura
-Códigos dos Cursos de Lógica da Alura
+Códigos dos Cursos de Java da Alura
