@@ -1,15 +1,16 @@
 
-public abstract class Funcionario {
+public class Funcionario {
 	
 	private String nome;
 	private String cpf;
 	private double salario;
-	
-	// metodo sem corpo, não há implementação
-	public abstract double getBonificacao();
+		
+	public double getBonificacao() {
+		return this.salario * 0.1;
+	};
 	
 	public String getNome() {
-		return this.nome;
+		return nome;
 	}
 	
 	public void setNome(String nome) {
@@ -17,7 +18,7 @@ public abstract class Funcionario {
 	}
 	
 	public String getCpf() {
-		return this.cpf;
+		return cpf;
 	}
 	
 	public void setCpf(String cpf) {
@@ -25,11 +26,10 @@ public abstract class Funcionario {
 	}
 	
 	public double getSalario() {
-		return this.salario;
+		return salario;
 	}
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
 	
-
 }
