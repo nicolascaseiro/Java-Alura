@@ -1,24 +1,22 @@
-//o camando extends faz herdar atributos e metodos da classe FuncionarioAutenticavel
-public class Gerente extends Funcionario implements Autenticavel {
+
+public class Gerente extends Funcionario {
 	
-	private AutenticacaoUtil autenticador;
-	
-	public Gerente() {
-		this.autenticador = new AutenticacaoUtil();
-	}
-	
-		
+	private int senha;
+
 	public void setSenha(int senha) {
-		this.autenticador.setSenha(senha);;
+		this.senha = senha;
 	}
 	
 	public boolean autentica(int senha) {
-		return this.autenticador.autentica(senha);
+		if (this.senha == senha){
+			return true;
+		} else {
+			return false;
+		}
 	}
 	
-	public double getBonificacao() {
-		System.out.println("Chamando o metodo de bonificaçao do Gerente");
-		return super.getSalario();
-	}
+//	public double getBonificacao() {
+//		return this.salario;
+//	};
 
 }
