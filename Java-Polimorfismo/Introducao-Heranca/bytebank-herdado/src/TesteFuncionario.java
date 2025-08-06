@@ -5,7 +5,7 @@ public class TesteFuncionario {
 		
 		Funcionario nick = new Funcionario();
 		nick.setNome("Nicolas Caseiro");
-		nick.setCpf("999.888.777-66");
+		nick.setCpf("99988877766");
 		nick.setSalario(10000);
 		
 		System.out.println(nick.getNome());
