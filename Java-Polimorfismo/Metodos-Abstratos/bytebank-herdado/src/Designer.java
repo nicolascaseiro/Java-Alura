@@ -2,7 +2,7 @@
 public class Designer extends Funcionario {
 	
 	public double getBonificacao() {
-		System.out.println("Chamando o metodo de bonificaçao do Designer");
+		System.out.println("Chamando o metodo de bonificaï¿½ao do Designer");
 		return 200;
 	}
 
