@@ -1,7 +1,6 @@
 
 public class Administrador extends Funcionario implements Autenticavel{
 
-	
 	private AutenticacaoUtil autenticador;
 	
 	public Administrador() {
