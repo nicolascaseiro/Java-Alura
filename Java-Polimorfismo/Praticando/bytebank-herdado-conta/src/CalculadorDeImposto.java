@@ -1,6 +1,5 @@
-package OrientaçãoObjetoAlura.Curso3.bank;
 
-public class CalculadoImposto {
+public class CalculadorDeImposto {
     private double totalImposto;
 
     public void registra (Tributavel t) {
