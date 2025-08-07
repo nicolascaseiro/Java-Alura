@@ -1,4 +1,4 @@
-//o camando extends faz herdar atributos e metodos da classe FuncionarioAutenticavel
+
 public class Gerente extends Funcionario implements Autenticavel {
 	
 	private AutenticacaoUtil autenticador;
@@ -17,7 +17,7 @@ public class Gerente extends Funcionario implements Autenticavel {
 	}
 	
 	public double getBonificacao() {
-		System.out.println("Chamando o metodo de bonificaçao do Gerente");
+		System.out.println("Chamando o metodo de bonificaÃ§ao do GERENTE");
 		return super.getSalario();
 	}
 
