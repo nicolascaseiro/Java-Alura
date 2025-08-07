@@ -6,12 +6,12 @@ public class TesteReferencias {
 		Gerente g1 = new Gerente();
 		g1.setNome("Marcos");
 		g1.setSalario(5000);
-		
+
 		EditorVideo ev = new EditorVideo();
 		ev.setSalario(2500);
-		
+
 		Designer d = new Designer();
-		d.setSalario(2000); 
+		f.setSalario(2000); 
 		
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(g1);
