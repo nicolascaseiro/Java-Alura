@@ -1,10 +1,7 @@
-package OrientaçãoObjetoAlura.Curso3.bank;
 
 public class Cliente {
     private String nome, cpf, profissao;
-
-    // metodos especiais
-
+    
     public String getNome() {
         return nome;
     }
