@@ -6,7 +6,6 @@ public class Administrador extends Funcionario implements Autenticavel {
 	public Administrador() {
 		this.autenticador = new AutenticacaoUtil();
 	}
-	
 		
 	@Override
 	public double getBonificacao() {
