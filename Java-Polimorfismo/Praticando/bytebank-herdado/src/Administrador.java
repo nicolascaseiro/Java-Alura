@@ -1,5 +1,5 @@
 
-public class Administrador extends Funcionario implements Autenticavel{
+public class Administrador extends Funcionario implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
 	
