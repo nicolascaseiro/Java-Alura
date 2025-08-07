@@ -1,4 +1,3 @@
-package OrientaçãoObjetoAlura.Curso3.bank;
 
 public abstract class Conta{
     private double saldo;
@@ -6,8 +5,7 @@ public abstract class Conta{
     private int numero;
     private Cliente titular;
     private static int total;
-    //metodos especiais
-
+    
     public Cliente getTitular() {
         return titular;
     }
@@ -35,9 +33,6 @@ public abstract class Conta{
     public String toString() {
         return "Conta [agencia=" + agencia + ", numero=" + numero + ", saldo=" + saldo + ", titular=" + titular + "]";
     }
-
-
-    // Metodos
 
     public void deposita(double valor) {
         this.saldo = this.saldo + valor;
