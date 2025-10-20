@@ -1,4 +1,4 @@
-# ☕ Java - Alura
+# Java - Alura
 
 Repositório com os códigos desenvolvidos nos cursos de **Java** da [Alura](https://www.alura.com.br/), organizados por módulos.
 
